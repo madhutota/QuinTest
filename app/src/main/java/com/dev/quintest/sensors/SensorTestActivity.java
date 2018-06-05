@@ -12,12 +12,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.dev.quintest.R;
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.BarGraphSeries;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
 
 public class SensorTestActivity extends Activity implements SensorEventListener {
+    public static final String TAG = SensorTestActivity.class.getSimpleName();
     private SensorManager sensorManager;
     private boolean color = false;
     private View view;
@@ -25,6 +31,13 @@ public class SensorTestActivity extends Activity implements SensorEventListener 
     private TextView tv_first;
     private TextView tv_second;
     private TextView tv_third;
+
+    private Double[] dataPoints;
+    private GraphView graphView;
+    private BarGraphSeries series;
+    private double graph2LastXValue = 5d;
+    LineGraphSeries<DataPoint> linearGraphSeries;
+    GraphView graph;
 
     /**
      * Called when the activity is first created.
@@ -46,7 +59,32 @@ public class SensorTestActivity extends Activity implements SensorEventListener 
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         lastUpdate = System.currentTimeMillis();
+
+        /*series = new BarGraphSeries(new GraphView.GraphViewData[] {
+        });
+        graphView = new LineGraphView(
+                this // context
+                , "Acceleration" // heading
+        );
+        graphView.addSeries(series); // data
+        graphView.setViewPort(1, 10);
+        graphView.setManualYAxisBounds(20,1);
+        graphView.setScalable(true);
+
+        LinearLayout layout = (LinearLayout) findViewById(R.id.linearLayout);
+        layout.addView(graphView);
+
+        dataPoints = new Double[500];*/
+
+
+      graph = (GraphView) findViewById(R.id.graph);
+
+
+
+
+
     }
+
 
 
     /*Sensor.TYPE_GYROSCOPE
@@ -76,6 +114,15 @@ Sensor.TYPE_ACCELEROMETER*/
         tv_second.setText("Y --->" + String.valueOf(y));
 
 
+       /* float accelationSquareRoot = (x * x + y * y + z * z)
+                / (SensorManager.GRAVITY_EARTH * SensorManager.GRAVITY_EARTH);
+        double acceleration = Math.sqrt(accelationSquareRoot);
+        long actualTime = System.currentTimeMillis();
+        graph2LastXValue += 1d;
+        series.appendData(new GraphView.GraphViewData(graph2LastXValue, acceleration), true, 10);
+        addDataPoint(acceleration);*/
+
+
         float accelationSquareRoot = (x * x + y * y + z * z)
                 / (SensorManager.GRAVITY_EARTH * SensorManager.GRAVITY_EARTH);
         long actualTime = event.timestamp;
@@ -94,6 +141,11 @@ Sensor.TYPE_ACCELEROMETER*/
             }
             color = !color;
         }
+
+        linearGraphSeries = new LineGraphSeries<DataPoint>(new DataPoint[] {
+                new DataPoint(x, y)
+        });
+        graph.addSeries(linearGraphSeries);
     }
 
     @Override
@@ -117,4 +169,9 @@ Sensor.TYPE_ACCELEROMETER*/
         super.onPause();
         sensorManager.unregisterListener(this);
     }
+    private void addDataPoint(double acceleration) {
+        dataPoints[499] = acceleration;
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
 }

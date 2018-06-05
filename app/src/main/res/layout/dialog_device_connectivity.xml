@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_three_hundred"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lly_dialog_connect"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_three_hundred"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_three_hundred"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_dialog_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/icon_device_disconnect"
+                android:textSize="@dimen/sp_size_one_hundred_fifty" />
+
+
+            <Button
+                android:id="@+id/btn_dialog_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_twenty"
+                android:background="@drawable/shape_orange"
+                android:minHeight="@dimen/btn_min_height"
+                android:paddingLeft="@dimen/dimen_twentyfive"
+                android:paddingRight="@dimen/dimen_twentyfive"
+                android:text="@string/connect"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_size_eighteen" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_drawer_connected_devices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_ten"
+        android:background="@color/white"
+        android:divider="@color/dark_gray_color"/>
+</LinearLayout>

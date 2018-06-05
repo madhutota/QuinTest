@@ -10,4 +10,11 @@
     <string name="scan">Scan</string>
     <string name="stopScan">Stop Scanning</string>
 
+
+    <string name="icon_heart_disconnected">&#xf08a;</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="icon_device_disconnect">&#x0048;</string>
+
+    <string name="connect">Connect</string>
+
 </resources>

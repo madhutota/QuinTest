@@ -1,0 +1,484 @@
+{
+  "states": [
+    {
+      "STATEID": 1,
+      "COUNTRYID": 1,
+      "NAME": "Alabama",
+      "ABBREVIATION": "AL"
+    },
+    {
+      "STATEID": 2,
+      "COUNTRYID": 1,
+      "NAME": "Alaska",
+      "ABBREVIATION": "AK"
+    },
+    {
+      "STATEID": 3,
+      "COUNTRYID": 1,
+      "NAME": "American Samoa",
+      "ABBREVIATION": "AS"
+    },
+    {
+      "STATEID": 4,
+      "COUNTRYID": 1,
+      "NAME": "Arizona",
+      "ABBREVIATION": "AZ"
+    },
+    {
+      "STATEID": 5,
+      "COUNTRYID": 1,
+      "NAME": "Arkansas",
+      "ABBREVIATION": "AR"
+    },
+    {
+      "STATEID": 6,
+      "COUNTRYID": 1,
+      "NAME": "California",
+      "ABBREVIATION": "CA"
+    },
+    {
+      "STATEID": 7,
+      "COUNTRYID": 1,
+      "NAME": "Colorado",
+      "ABBREVIATION": "CO"
+    },
+    {
+      "STATEID": 8,
+      "COUNTRYID": 1,
+      "NAME": "Connecticut",
+      "ABBREVIATION": "CT"
+    },
+    {
+      "STATEID": 9,
+      "COUNTRYID": 1,
+      "NAME": "Delaware",
+      "ABBREVIATION": "DE"
+    },
+    {
+      "STATEID": 10,
+      "COUNTRYID": 1,
+      "NAME": "District Of Columbia",
+      "ABBREVIATION": "DC"
+    },
+    {
+      "STATEID": 11,
+      "COUNTRYID": 1,
+      "NAME": "Federated States Of Micronesia",
+      "ABBREVIATION": "FM"
+    },
+    {
+      "STATEID": 12,
+      "COUNTRYID": 1,
+      "NAME": "Florida",
+      "ABBREVIATION": "FL"
+    },
+    {
+      "STATEID": 13,
+      "COUNTRYID": 1,
+      "NAME": "Georgia",
+      "ABBREVIATION": "GA"
+    },
+    {
+      "STATEID": 14,
+      "COUNTRYID": 1,
+      "NAME": "Guam",
+      "ABBREVIATION": "GU"
+    },
+    {
+      "STATEID": 15,
+      "COUNTRYID": 1,
+      "NAME": "Hawaii",
+      "ABBREVIATION": "HI"
+    },
+    {
+      "STATEID": 16,
+      "COUNTRYID": 1,
+      "NAME": "Idaho",
+      "ABBREVIATION": "ID"
+    },
+    {
+      "STATEID": 17,
+      "COUNTRYID": 1,
+      "NAME": "Illinois",
+      "ABBREVIATION": "IL"
+    },
+    {
+      "STATEID": 18,
+      "COUNTRYID": 1,
+      "NAME": "Indiana",
+      "ABBREVIATION": "IN"
+    },
+    {
+      "STATEID": 19,
+      "COUNTRYID": 1,
+      "NAME": "Iowa",
+      "ABBREVIATION": "IA"
+    },
+    {
+      "STATEID": 20,
+      "COUNTRYID": 1,
+      "NAME": "Kansas",
+      "ABBREVIATION": "KS"
+    },
+    {
+      "STATEID": 21,
+      "COUNTRYID": 1,
+      "NAME": "Kentucky",
+      "ABBREVIATION": "KY"
+    },
+    {
+      "STATEID": 22,
+      "COUNTRYID": 1,
+      "NAME": "Louisiana",
+      "ABBREVIATION": "LA"
+    },
+    {
+      "STATEID": 23,
+      "COUNTRYID": 1,
+      "NAME": "Maine",
+      "ABBREVIATION": "ME"
+    },
+    {
+      "STATEID": 24,
+      "COUNTRYID": 1,
+      "NAME": "Marshall Islands",
+      "ABBREVIATION": "MH"
+    },
+    {
+      "STATEID": 25,
+      "COUNTRYID": 1,
+      "NAME": "Maryland",
+      "ABBREVIATION": "MD"
+    },
+    {
+      "STATEID": 26,
+      "COUNTRYID": 1,
+      "NAME": "Massachusetts",
+      "ABBREVIATION": "MA"
+    },
+    {
+      "STATEID": 27,
+      "COUNTRYID": 1,
+      "NAME": "Michigan",
+      "ABBREVIATION": "MI"
+    },
+    {
+      "STATEID": 28,
+      "COUNTRYID": 1,
+      "NAME": "Minnesota",
+      "ABBREVIATION": "MN"
+    },
+    {
+      "STATEID": 29,
+      "COUNTRYID": 1,
+      "NAME": "Mississippi",
+      "ABBREVIATION": "MS"
+    },
+    {
+      "STATEID": 30,
+      "COUNTRYID": 1,
+      "NAME": "Missouri",
+      "ABBREVIATION": "MO"
+    },
+    {
+      "STATEID": 31,
+      "COUNTRYID": 1,
+      "NAME": "Montana",
+      "ABBREVIATION": "MT"
+    },
+    {
+      "STATEID": 32,
+      "COUNTRYID": 1,
+      "NAME": "Nebraska",
+      "ABBREVIATION": "NE"
+    },
+    {
+      "STATEID": 33,
+      "COUNTRYID": 1,
+      "NAME": "Nevada",
+      "ABBREVIATION": "NV"
+    },
+    {
+      "STATEID": 34,
+      "COUNTRYID": 1,
+      "NAME": "New Hampshire",
+      "ABBREVIATION": "NH"
+    },
+    {
+      "STATEID": 35,
+      "COUNTRYID": 1,
+      "NAME": "New Jersey",
+      "ABBREVIATION": "NJ"
+    },
+    {
+      "STATEID": 36,
+      "COUNTRYID": 1,
+      "NAME": "New Mexico",
+      "ABBREVIATION": "NM"
+    },
+    {
+      "STATEID": 37,
+      "COUNTRYID": 1,
+      "NAME": "New York",
+      "ABBREVIATION": "NY"
+    },
+    {
+      "STATEID": 38,
+      "COUNTRYID": 1,
+      "NAME": "North Carolina",
+      "ABBREVIATION": "NC"
+    },
+    {
+      "STATEID": 39,
+      "COUNTRYID": 1,
+      "NAME": "North Dakota",
+      "ABBREVIATION": "ND"
+    },
+    {
+      "STATEID": 40,
+      "COUNTRYID": 1,
+      "NAME": "Northern Mariana Islands",
+      "ABBREVIATION": "MP"
+    },
+    {
+      "STATEID": 41,
+      "COUNTRYID": 1,
+      "NAME": "Ohio",
+      "ABBREVIATION": "OH"
+    },
+    {
+      "STATEID": 42,
+      "COUNTRYID": 1,
+      "NAME": "Oklahoma",
+      "ABBREVIATION": "OK"
+    },
+    {
+      "STATEID": 43,
+      "COUNTRYID": 1,
+      "NAME": "Oregon",
+      "ABBREVIATION": "OR"
+    },
+    {
+      "STATEID": 44,
+      "COUNTRYID": 1,
+      "NAME": "Palau",
+      "ABBREVIATION": "PW"
+    },
+    {
+      "STATEID": 45,
+      "COUNTRYID": 1,
+      "NAME": "Pennsylvania",
+      "ABBREVIATION": "PA"
+    },
+    {
+      "STATEID": 46,
+      "COUNTRYID": 1,
+      "NAME": "Puerto Rico",
+      "ABBREVIATION": "PR"
+    },
+    {
+      "STATEID": 47,
+      "COUNTRYID": 1,
+      "NAME": "Rhode Island",
+      "ABBREVIATION": "RI"
+    },
+    {
+      "STATEID": 48,
+      "COUNTRYID": 1,
+      "NAME": "South Carolina",
+      "ABBREVIATION": "SC"
+    },
+    {
+      "STATEID": 49,
+      "COUNTRYID": 1,
+      "NAME": "South Dakota",
+      "ABBREVIATION": "SD"
+    },
+    {
+      "STATEID": 50,
+      "COUNTRYID": 1,
+      "NAME": "Tennessee",
+      "ABBREVIATION": "TN"
+    },
+    {
+      "STATEID": 51,
+      "COUNTRYID": 1,
+      "NAME": "Texas",
+      "ABBREVIATION": "TX"
+    },
+    {
+      "STATEID": 52,
+      "COUNTRYID": 1,
+      "NAME": "Utah",
+      "ABBREVIATION": "UT"
+    },
+    {
+      "STATEID": 53,
+      "COUNTRYID": 1,
+      "NAME": "Vermont",
+      "ABBREVIATION": "VT"
+    },
+    {
+      "STATEID": 54,
+      "COUNTRYID": 1,
+      "NAME": "Virgin Islands",
+      "ABBREVIATION": "VI"
+    },
+    {
+      "STATEID": 55,
+      "COUNTRYID": 1,
+      "NAME": "Virginia",
+      "ABBREVIATION": "VA"
+    },
+    {
+      "STATEID": 56,
+      "COUNTRYID": 1,
+      "NAME": "Washington",
+      "ABBREVIATION": "WA"
+    },
+    {
+      "STATEID": 57,
+      "COUNTRYID": 1,
+      "NAME": "West Virginia",
+      "ABBREVIATION": "WV"
+    },
+    {
+      "STATEID": 58,
+      "COUNTRYID": 1,
+      "NAME": "Wisconsin",
+      "ABBREVIATION": "WI"
+    },
+    {
+      "STATEID": 59,
+      "COUNTRYID": 1,
+      "NAME": "Wyoming",
+      "ABBREVIATION": "WY"
+    },
+    {
+      "STATEID": 60,
+      "COUNTRYID": 35,
+      "NAME": "Alberta",
+      "ABBREVIATION": "AB"
+    },
+    {
+      "STATEID": 61,
+      "COUNTRYID": 35,
+      "NAME": "British Columbia",
+      "ABBREVIATION": "BC"
+    },
+    {
+      "STATEID": 62,
+      "COUNTRYID": 35,
+      "NAME": "Manitoba",
+      "ABBREVIATION": "MB"
+    },
+    {
+      "STATEID": 63,
+      "COUNTRYID": 35,
+      "NAME": "New Brunswick",
+      "ABBREVIATION": "NB"
+    },
+    {
+      "STATEID": 64,
+      "COUNTRYID": 35,
+      "NAME": "Newfoundland",
+      "ABBREVIATION": "NL"
+    },
+    {
+      "STATEID": 65,
+      "COUNTRYID": 35,
+      "NAME": "Nova Scotia",
+      "ABBREVIATION": "NS"
+    },
+    {
+      "STATEID": 66,
+      "COUNTRYID": 35,
+      "NAME": "Northwest Territories",
+      "ABBREVIATION": "NT"
+    },
+    {
+      "STATEID": 67,
+      "COUNTRYID": 35,
+      "NAME": "Ontario",
+      "ABBREVIATION": "ON"
+    },
+    {
+      "STATEID": 68,
+      "COUNTRYID": 35,
+      "NAME": "Prince Edward Island",
+      "ABBREVIATION": "PE"
+    },
+    {
+      "STATEID": 69,
+      "COUNTRYID": 35,
+      "NAME": "Quebec",
+      "ABBREVIATION": "QC"
+    },
+    {
+      "STATEID": 70,
+      "COUNTRYID": 35,
+      "NAME": "Saskatchewan",
+      "ABBREVIATION": "SK"
+    },
+    {
+      "STATEID": 71,
+      "COUNTRYID": 35,
+      "NAME": "Yukon",
+      "ABBREVIATION": "YT"
+    },
+    {
+      "STATEID": 72,
+      "COUNTRYID": 35,
+      "NAME": "Nunavut",
+      "ABBREVIATION": "NU"
+    },
+    {
+      "STATEID": 73,
+      "COUNTRYID": 12,
+      "NAME": "Australian Capital Territory",
+      "ABBREVIATION": "ACT"
+    },
+    {
+      "STATEID": 74,
+      "COUNTRYID": 12,
+      "NAME": "New South Wales",
+      "ABBREVIATION": "NSW"
+    },
+    {
+      "STATEID": 75,
+      "COUNTRYID": 12,
+      "NAME": "Northern Territory",
+      "ABBREVIATION": "NT"
+    },
+    {
+      "STATEID": 76,
+      "COUNTRYID": 12,
+      "NAME": "Queensland",
+      "ABBREVIATION": "QLD"
+    },
+    {
+      "STATEID": 77,
+      "COUNTRYID": 12,
+      "NAME": "South Australia",
+      "ABBREVIATION": "SA"
+    },
+    {
+      "STATEID": 78,
+      "COUNTRYID": 12,
+      "NAME": "Tasmania",
+      "ABBREVIATION": "TAS"
+    },
+    {
+      "STATEID": 79,
+      "COUNTRYID": 12,
+      "NAME": "Victoria",
+      "ABBREVIATION": "VIC"
+    },
+    {
+      "STATEID": 80,
+      "COUNTRYID": 12,
+      "NAME": "Western Australia",
+      "ABBREVIATION": "WA"
+    }
+  ]
+}
